@@ -40,7 +40,8 @@ printf("===  Jogo Do Super Trunfo ===\n");
      printf("Pontos turisticos: ");
      scanf("%d",&pontos1);
 
-     printf("\n------------------------\n");
+     printf("\n-------------------------\n");
+    
 
      printf("Digite o estado da Carta 2: ");
      scanf("%s", estado2);
