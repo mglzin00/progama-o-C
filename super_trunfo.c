@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main () {
-    return 0;
-    char estado1;
+    char estado1[3];
     char codigo1[4];
     char nome1[50];
     int populacao1;
@@ -10,7 +9,7 @@ int main () {
     float pib1;
     int pontos1;
     
-    char estado2;
+    char estado2[3];
     char codigo2[4];
     char nome2[50];
     int populacao2;
@@ -18,8 +17,10 @@ int main () {
     float pib2;
     int pontos2;
 
-     printf("Digite o estado da Carta 1:");
-     scanf(" %c", &estado1);
+printf("===  Jogo Do Super Trunfo ===\n");
+
+     printf("Digite o estado da Carta 1: ");
+     scanf(" %s", estado1);
 
      printf("Codigo da primeira carta: ");
      scanf("%s", codigo1);
